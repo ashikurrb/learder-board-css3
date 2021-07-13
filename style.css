@@ -98,8 +98,10 @@ hr{
 }
 
 .course{
-    box-shadow: rgba(0, 0, 0, 0.103) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.562) 0px 3px 8px;
     border-radius: 10px;
+    padding: 5%;
+    margin: 2%;
 }
 
 .course .course-banner img{
@@ -139,9 +141,6 @@ hr{
     .blogs{
         flex-direction: column;
     }
-    .courses{
-
-    }
 }
 
 @media only screen and (min-width:688px) and (max-width:992px) {
@@ -155,8 +154,5 @@ hr{
 
     .player, .blog{
         flex-direction: column;
-    }
-    .courses{
-
     }
 }
